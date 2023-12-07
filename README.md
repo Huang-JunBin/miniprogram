@@ -10,11 +10,11 @@
 
 目前，我们需要打开微信公众平台 https://mp.weixin.qq.com/ 扫码登录小程序管理后台。
 
-<img src="README_IMAGE\登录.png" alt="登录" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/登录.png" alt="登录" style="zoom: 33%;" />
 
 点击小程序管理后台左侧【开发】，随后在右侧顶部点击【开发设置】，找到页面中的AppID(小程序ID)。
 
-![查看AppID](README_IMAGE\查看AppID.png)
+![查看AppID](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/查看AppID.png)
 
 AppID 是非常重要的小程序 ID 相当于小程序平台的一个身份证，后续你会在很多地方要用到 AppID （注意这里要区别于服务号或订阅号的 AppID），请开发者妥善保管和保存。 
 
@@ -41,11 +41,11 @@ https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 
 开发工具安装完成后，我们来新建第一个小程序项目。双击打开微信开发者工具，如果你是第一次打开或者长时间未打开微信开发者工具，开发工具都会弹出一个二维码，请使用微信“扫一扫”扫描该二维码。进入微信开发者工具后你将看到下图的微信开发者工具首选页面：
 
-![开发者工具首页](README_IMAGE\开发者工具首页.png)
+![开发者工具首页](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/开发者工具首页.png)
 
 选择第一个【小程序】，然后在右侧点击 + ，这将打开一个新建小程序的面板，如图所示：
 
-![新建项目](README_IMAGE\新建项目.png)
+![新建项目](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/新建项目.png)
 
 面板中需要填入的选项有：
 
@@ -60,7 +60,7 @@ https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 
 成功创建项目后，将进入到如图所示的开发者工具主界面中。
 
-![项目展示](README_IMAGE\项目展示.png)
+![项目展示](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/项目展示.png)
 
 ### 使用第三方组件库
 
@@ -135,13 +135,13 @@ npm i vant-weapp -S --production
 
 效果如图所示：
 
-![使用组件](README_IMAGE\使用组件.png)
+![使用组件](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/使用组件.png)
 
 ### 添加标签页面
 
 在 app.json 中添加页面路径，并保存文件，即可在 pages 目录下自动生成对应的页面文件。
 
-![添加页面](README_IMAGE\添加页面.png)
+![添加页面](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/添加页面.png)
 
 ### 设置小程序底部 tabBar 栏
 
@@ -149,13 +149,13 @@ npm i vant-weapp -S --production
 
 在阿里图标库 https://www.iconfont.cn/ 下载项目需要的图标，保存在 static 文件夹下
 
-![tabbar_icon](README_IMAGE\tabbar_icon.png)
+![tabbar_icon](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/tabbar_icon.png)
 
 #### 修改配置
 
 修改 app.json 文件添加 tabBar 相关配置
 
-![设置tabbar](README_IMAGE\设置tabbar.png)
+![设置tabbar](https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/设置tabbar.png)
 
 ```json
 "tabBar": {
@@ -621,8 +621,3 @@ Page({
 #### 效果
 
 <iframe height=500 width=400 src="image\从零开始搭建微信小程序项目\loading.mp4">
-
-### 写在最后
-
-案例中使用到的代码已上传到 Github ，如有需要，请自行下载。
-
