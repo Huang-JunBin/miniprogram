@@ -620,4 +620,4 @@ Page({
 
 #### 效果
 
-<iframe height=500 width=400 src="image\从零开始搭建微信小程序项目\loading.mp4">
+<iframe height=500 width=400 src="https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/loading.mp4">
