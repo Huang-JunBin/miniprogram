@@ -620,5 +620,5 @@ Page({
 
 #### 效果
 
-https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/loading.mp4
+https://github.com/Huang-JunBin/miniprogram/assets/122099954/77d0c838-8887-4d5c-8c38-71cf8e2d8f82
 
