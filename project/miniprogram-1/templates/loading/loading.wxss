@@ -1,0 +1,53 @@
+.loading-container {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  background-color: #f2f2f2;
+}
+
+.loading-container .circle {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  background: #1677ff;
+  border-radius: 50%;
+  margin: -25rpx;
+  animation: mesh 3s ease-in-out infinite -1.5s;
+}
+
+.loading-container>view .circle:last-child {
+  animation-delay: 0s;
+}
+
+.loading-container>view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.loading-container>view:last-child {
+  transform: rotate(90deg);
+}
+
+@keyframes mesh {
+  0% {
+    transform-origin: 50% -100%;
+    transform: rotate(0);
+  }
+
+  50% {
+    transform-origin: 50% -100%;
+    transform: rotate(360deg);
+  }
+
+  50.00001% {
+    transform-origin: 50% 200%;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform-origin: 50% 200%;
+    transform: rotate(360deg);
+  }
+}

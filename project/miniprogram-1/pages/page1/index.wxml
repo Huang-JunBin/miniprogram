@@ -1,0 +1,5 @@
+<view>
+  <navigator url="/subpackages/page1/page1-detail/index">
+  <button type="primary">跳转详情页</button>
+  </navigator>
+</view>

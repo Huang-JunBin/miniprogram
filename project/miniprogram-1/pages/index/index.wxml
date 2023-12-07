@@ -1,0 +1,20 @@
+<import src="/templates/loading/loading.wxml" />
+<template wx:if="{{loading}}" is="loading" />
+<view wx:else class="container">
+  <view>
+    <view style="margin-bottom: 50px;display: flex;justify-content: space-around;">
+      <van-button bindtap="hideTarBar">隐藏tabbar</van-button>
+      <van-button bindtap="showTarBar">显示tabbar</van-button>
+    </view>
+    <block wx:for="0123456789" wx:key="index">
+      <view>
+        <van-button bindtap="open" data-uri="index-detail-1" type="default">index-detail-1</van-button>
+        <van-button bindtap="open" data-uri="index-detail-2" type="info">index-detail-2</van-button>
+      </view>
+      <view style="margin: 50px;">
+        <van-button bindtap="open" data-uri="index-detail-1" type="default">index-detail-1</van-button>
+        <van-button bindtap="open" data-uri="index-detail-2" type="info">index-detail-2</van-button>
+      </view>
+    </block>
+  </view>
+</view>

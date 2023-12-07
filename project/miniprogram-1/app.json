@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page1/index",
+    "pages/page2/index",
+    "pages/page3/index"
+  ],
+  "subpackages": [
+    {
+      "root": "subpackages/index",
+      "pages": [
+        "index-detail-1/index",
+        "index-detail-2/index"
+      ]
+    }, {
+      "name": "page1",
+      "root": "subpackages/page1",
+      "pages": [
+        "page1-detail/index"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": ["subpackages/index"]
+    },
+    "pages/page1/index": {
+      "packages": ["page1"]
+    }
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#666666",
+    "selectedColor": "#1677ff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "static/tarbar-icon/index.png",
+      "selectedIconPath": "static/tarbar-icon/index_active.png"
+    }, {
+      "pagePath": "pages/page1/index",
+      "text": "第一页",
+      "iconPath": "static/tarbar-icon/page1.png",
+      "selectedIconPath": "static/tarbar-icon/page1_active.png"
+    }, {
+      "pagePath": "pages/page2/index",
+      "text": "第二页",
+      "iconPath": "static/tarbar-icon/page2.png",
+      "selectedIconPath": "static/tarbar-icon/page2_active.png"
+    }, {
+      "pagePath": "pages/page3/index",
+      "text": "第三页",
+      "iconPath": "static/tarbar-icon/page3.png",
+      "selectedIconPath": "static/tarbar-icon/page3_active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": { 
+  }
+}

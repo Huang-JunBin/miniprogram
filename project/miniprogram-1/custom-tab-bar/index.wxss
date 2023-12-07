@@ -1,0 +1,5 @@
+/* custom-tab-bar/index.wxss */
+.icon {
+  width: 25px;
+  height: 25px;
+}
