@@ -620,4 +620,7 @@ Page({
 
 #### 效果
 
-<iframe height=500 width=400 src="https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/loading.mp4">
+<video src="https://raw.githubusercontent.com/Huang-JunBin/miniprogram/main/README_IMAGE/loading.mp4" controls>
+    你的浏览器不支持 <code>video</code> 标签。 
+</video>
+
